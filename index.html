@@ -3,46 +3,54 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-       <link rel="stylesheet" type="text/css" href="css/estilo.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos_paginas.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Index</title>
 </head>
 <body>
-<div class="container mt-4">
-    <h1 id="r">Index</h1>
-       <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link active" href="registro.html">Registrarse</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="login.html" data-bs-toggle="modal" data-bs-target="#login_Ale">Login</a>
-        </li>
+    <div class="container">
+        
+        <h1 id="r">LIMPIEZA PROFUNDA</h1>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="quienes_somos.html">Quiénes Somos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="nuestros_servicios.html">Nuestros Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactanos.html">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#login_Ale">Login</a>
+            </li>
         </ul>
-</div>
-
-<div class="modal" id="login_Ale">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <!-- Modal Header -->
-            <div class="modal-header">
-                <h4 class="modal-title">Login</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <div class="modal-body">
-                <div class="mb-3">
-                <label>Usuario</label>
-                <input type="text" class="form-control"  >
+    </div>
+<img src="imagenes/logo.png" alt="Banner" class="img-fluid">
+    <div class="modal" id="login_Ale">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
-                <div class="mb-3">
-                <label>contraseña</label>
-                <input type="password" class="form-control" >
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label>Usuario</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label>Contraseña</label>
+                        <input type="password" class="form-control">
+                    </div>
+                    <a href="index.html" class="btn btn-primary">Regresar</a>
+                    <a href="index.html" class="btn btn-info">Ingresar</a>
                 </div>
-                <a href="index.html" class="btn btn-primary">Regresar</a>
-                <a href="pagina_principal.html" class="btn btn-info">Ingresar</a>
             </div>
         </div>
     </div>
-</div>
 </body>
 </html>
