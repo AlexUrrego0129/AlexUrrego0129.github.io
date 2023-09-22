@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffc0cb; /* Color rosado claro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos adicionales para otros elementos de tu página */
+
+
+
+h1 {
+    color: #d53507; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+
+.a {
+    color: #FF0000; 
+    font-weight: 600
+}
+.b {
+    color: #0000FF; 
+    font-weight: 600
+}
+.c {
+    color: #00FF00; 
+    font-weight: 600
+}
+
+#r {
+    color: #FFB6C1 ;
+   font-family: "Comic sans MS", Times, serif ;
+}

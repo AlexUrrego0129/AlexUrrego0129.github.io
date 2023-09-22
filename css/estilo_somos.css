@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffc0cb; /* Color rosado claro */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffc0cb; /* Color rosado claro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px; /* Tamaño del título */
+    font-family: "Comic sans MS", Times, serif ;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #d53507 ;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.historia {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: justify; /* Justifica el texto */
+}
+
+.historia img {
+    max-width: 100%; /* La imagen se ajustará al tamaño del contenedor */
+    height: auto;
+    float: left; /* La imagen se ubica a la izquierda */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+/* Establece el estilo del párrafo dentro de .historia para que el texto se organice de arriba hacia abajo */
+.historia p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+}

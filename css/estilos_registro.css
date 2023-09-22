@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffc0cb;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto; /* Esto centra el contenedor en el centro de la página */
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Esto centra el contenido del contenedor */
+}
+h1 {
+    font-size: 35px; /* Tamaño del título */
+    font-family: "Comic sans MS", Times, serif ;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #d53507 ;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Alinea el texto a la izquierda dentro de los campos del formulario */
+}
+
+label {
+    font-weight: bold;
+    font-family: "Comic sans MS", Times, serif ;
+}
+input {
+    align-content: center;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #d53507;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
